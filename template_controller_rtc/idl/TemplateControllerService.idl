@@ -1,6 +1,6 @@
 #include "BasicDataType.idl"
 
-module template_controller_rtc
+module OpenHRP
 {
   interface TemplateControllerService
   {

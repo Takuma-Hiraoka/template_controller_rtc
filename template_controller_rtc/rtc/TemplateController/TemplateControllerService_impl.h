@@ -6,7 +6,7 @@
 class TemplateController;
 
 class TemplateControllerService_impl
-  : public virtual POA_template_controller_rtc::TemplateControllerService,
+  : public virtual POA_OpenHRP::TemplateControllerService,
     public virtual PortableServer::RefCountServantBase
 {
 public:

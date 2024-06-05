@@ -29,7 +29,6 @@ RTC::ReturnCode_t TemplateController::onInitialize(){
 }
 
 RTC::ReturnCode_t TemplateController::onExecute(RTC::UniqueId ec_id){
-  std::cerr << "TemplateController rtc onExecute" << std::endl;
 
   if (this->m_qRefIn_.isNew()){
     this->m_qRefIn_.read();

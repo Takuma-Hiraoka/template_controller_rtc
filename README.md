@@ -21,3 +21,4 @@ auto_stabilizerという名前にする場合
 ```bash
 ./rename.sh auto_stabilizer
 ```
+package.xmlのmaintainerなども適切に修正すること
